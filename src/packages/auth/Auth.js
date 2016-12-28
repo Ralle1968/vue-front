@@ -15,7 +15,7 @@ export default function (Vue) {
                 this.destroyToken()
                 return null;
             } else
-                return token
+                return token;
         },
 
         destroyToken ()  {
